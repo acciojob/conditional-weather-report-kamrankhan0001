@@ -8,7 +8,7 @@ const threshold = 20;
   return (
      <div className="App">
       <h2>Weather for Your Location</h2>
-      <p>Temperature: <span style={{ color: weatherData.temperature > threshold ? 'red' : 'blue' }}>{weatherData.temperature}°C</span></p>
+      <p>Temperature: <span style={{ color: weatherData.temperature > threshold ? 'red' : 'blue' }}>{weatherData.temperature}</span></p>
       <p>Conditions: {weatherData.conditions}</p>
     </div>
   )
